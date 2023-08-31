@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body
+{
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.myname
+{
+	font-size: 30px;
+	font-family:Arial Black;
+	color: #eb5234;
+}
+.mymenu
+{
+	font-size: 20px;
+	color: black;
+	font-weight: bolder;
+}
+.mymenu:hover
+{
+	color: #eb5234;
+}
+.navbar
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 1;
+}
+.maindiv
+{
+	width: 100%;
+	position: absolute;
+	top: 0px;
+}
+.dv
+{
+   width: 100%;
+   padding-top: 200px;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+.home
+{
+	height: 400px;
+	margin-top: 4px;
+	background-image: url("https://www.exin.com/app/uploads/2022/05/TMap%C2%AE-Suite-Test-Engineer-hero-header-1024x681.jpg");
+	background-repeat: no-repeat;
+	background-size: 30%;
+	background-position: right center;
+}
+.homeinfo
+{
+	margin-top: -10%;
+	margin-left: 4%;
+   margin: 30px;
+}
+.info
+{
+	font-size: 25px;
+	color: royalblue;
+	font-weight: bolder;
+}
+.infoname
+{
+	font-size: 35px;
+	font-family: Arial Black !important;
+	color: #eb5234;
+	font-weight: bolder;
+}
+.infodev
+{
+	font-size: 30px;
+	color: royalblue;
+	font-weight: bolder;
+}
+.btn
+{
+   margin: 0px;
+}
+.btn button
+{
+	height: 30px;
+	width: 80px;
+	border: none;
+	background-color: #eb5234;
+	border-radius: 10px;
+	color: white;
+	font-size: 14px;
+	font-weight: bolder;
+}
+.btn button:hover
+{
+	background-color: white;
+	color: #e38546;
+	border: 2px solid #eb5234;
+	transform: scale(1.1);
+	transition-duration: 1s;
+}
+.hd 
+{
+	font-size: 35px;
+	color: orange;
+	font-family: Arial Black;
+}
+#about,#skills
+{
+	height: 300px;
+	width: 100vw;
+	background-color: #fcfcfc;
+}
+#about table
+{
+	margin-top: 30px;
+}
+.co 
+{
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: justify;
+	text-indent: 20%;
+	line-height: 36px;
+}
+.myimg
+{
+	border-radius: 100px;
+	width: 200px;
+}
+.myimg:hover
+{
+	transform: scale(1.3);
+	transition-duration: 2s;
+	box-shadow: 0px 0px 20px black;
+}
+#skills
+{
+	background-color: white;
+	margin-top: 30px;
+	height: 500px;
+}
+#skills table
+{
+	margin-top: 30px;
+}
+.tbl tr td 
+{
+	text-align: left;
+	padding-top: 0px;
+}
+.skillhead
+{
+	font-size: 23px;
+	font-weight: bolder;
+	font-variant: small-caps;
+	color: gray;
+	margin-bottom: 40px;
+	text-decoration: underline 2px solid blue;
+}
+td 
+{
+	padding: 20px;
+}
